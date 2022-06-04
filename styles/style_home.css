@@ -150,6 +150,18 @@ nav {
     align-items: center;
 }
 
+.btn_error {
+    width: 212px;
+    height: 44px;
+    background: #dc1818;
+    border-radius: 125px;
+    margin-top: 34px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .img_analyse {
     display: none;
 }
