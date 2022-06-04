@@ -8,7 +8,7 @@ document.getElementById("fileSelect").addEventListener("change", (e) => {
   formData.append("audio", selectedFile);
   formData.append("idOnly", true);
   console.log("Sending files...");
-  fetch("http://129.151.73.110/api/analyze", {
+  fetch("https://cui-cui.ml/api/analyze", {
     method: "post",
     body: formData,
   }).then(id=>{
