@@ -11,6 +11,15 @@
   #var_dump($decoded_result);
   //echo '<script type="text/javascript">' .
   //        'console.log(' . $decoded_result . ')</script>';
+
+    $response = http_get("https://cui-cui.ml/api/get-results", array(
+    'headers' => array(
+      'Accept' => 'application/json'
+    )
+  ), $info);
+
+  print_r($info);
+    //-----Viol du php en cours au-dessus ---------
     $_SESSION['test'] = 'vatefaire';
     $_SESSION['decode_result'] = array(
     "len" => 3,
