@@ -1,5 +1,6 @@
 <?php
   session_start();
+  //Retrieve the string, which was sent via the POST parameter "user" 
 
 if($_SESSION['decode_result'] == ""){
 $ch = curl_init();
