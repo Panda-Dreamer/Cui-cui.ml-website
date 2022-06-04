@@ -12,8 +12,11 @@ document.getElementById("fileSelect").addEventListener("change", (e) => {
     method: "post",
     body: formData,
   }).then(id=>{
-    document.cookie=`cuicuiml_token=${id}`;
+    console.log('response:',id)
+    if(id.status == true){
+    document.cookie=`cuicuiml_token=${id.uuid}`;
     location.href = "result.php"
+    }
   })
 })
 
