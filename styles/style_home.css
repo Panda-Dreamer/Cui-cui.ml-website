@@ -138,6 +138,22 @@ nav {
     align-items: center;
 }
 
+.btn_already_uploaded {
+    width: 212px;
+    height: 44px;
+    background: #0F8E2B;
+    border-radius: 125px;
+    margin-top: 34px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_analyse {
+    display: none;
+}
+
 .txt_upload {
     font-family: 'Montserrat';
     font-style: normal;

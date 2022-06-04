@@ -18,10 +18,10 @@
 	<body>
 		<nav>
             <div class="group_nav">
-                <img src="resources/nav_icon/home.svg" alt="home">
-                <div class="btn_micro">
+                <a href="/index.php"><img src="resources/nav_icon/home.svg" alt="home"></a>
+                <a href"index.php"><div class="btn_micro">
                     <img src="resources/nav_icon/microphone.svg" alt="microphone">
-                </div>
+                </div></a>
                 <img src="resources/nav_icon/search.svg" alt="search">
             </div>
         </nav>
@@ -48,16 +48,16 @@
                 </div>
                 </a>
             </div>
-            <img src="<?=$_SESSION['decode_result']["image_1_" . $id]?>" alt="<?=$_SESSION['decode_result']["name_" . $id]?>" class="img_bird">
+            <img src="<?=$_SESSION['decode_result']["image_" . $id . "_1"]?>" alt="<?=$_SESSION['decode_result']["name_" . $id]?>" class="img_bird">
         </div>
         <div class="block_infos">
             <p class="name_bird"><?=$_SESSION['decode_result']["name_" . $id]?></p>
             <p id="overview">Aperçu</p>
             <p class="desc_bird"><?=$_SESSION['decode_result']["desc_" . $id]?></p>
             <p id="title_images">Images</p>
-            <img src="<?=$_SESSION['decode_result']["image_1_" . $id]?>" alt="<?=$_SESSION['decode_result']["name_" . $id]?>" class="images_bird">
-            <img src="<?=$_SESSION['decode_result']["image_2_" . $id]?>" alt="<?=$_SESSION['decode_result']["name_" . $id]?>" class="images_bird">
-            <img src="<?=$_SESSION['decode_result']["image_3_" . $id]?>" alt="<?=$_SESSION['decode_result']["name_" . $id]?>" class="images_bird">
+            <img src="<?=$_SESSION['decode_result']["image_" . $id . "_1"]?>" alt="<?=$_SESSION['decode_result']["name_" . $id]?>" class="images_bird">
+            <img src="<?=$_SESSION['decode_result']["image_" . $id . "_2"]?>" alt="<?=$_SESSION['decode_result']["name_" . $id]?>" class="images_bird">
+            <img src="<?=$_SESSION['decode_result']["image_" . $id . "_3"]?>" alt="<?=$_SESSION['decode_result']["name_" . $id]?>" class="images_bird">
             <p class="copyright">Toutes les images proviennent de : cornell.edu</p>
         </div>
         <div class="margin_nav_bar"></div>

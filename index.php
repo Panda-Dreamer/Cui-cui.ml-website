@@ -1,3 +1,8 @@
+<?php 
+session_start();
+$_SESSION['decode_result']  = "";
+?>
+
 <!DOCTYPE html>
 <html> 
     <head>
@@ -11,7 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
       <script src= "/js/handler2.js" defer="defer"></script>
 	</head>
-	<body>
+	<body onload="document.getElementById('fileSelect').focus();">
 		<nav>
             <div class="group_nav">
                 <img src="resources/nav_icon/home_select.svg" alt="home">
@@ -40,9 +45,10 @@
             </div>
             <p class="aide">Uploader votre fichier son directement</p>
             <input type="file" name="audio" id="fileSelect" accept="audio/*" style="display: none;">
-            <label for="fileSelect">
+            <label for="fileSelect" onclick="analyse()">
               <div class="btn_upload">
-                  <img src="resources/upload.svg" alt="upload">
+                  <img class ="img_btn_upload" src="resources/upload.svg" alt="upload">
+                  <img class ="img_analyse" src="resources/analyse.svg" alt="analyse">
                   <p class="txt_upload">Ouvrir un fichier</p>
               </div>
             </label>
