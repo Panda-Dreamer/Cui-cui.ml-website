@@ -8,6 +8,7 @@ body {
     background-repeat: none;
     background-position: center;
     background-size: 100%;
+    -webkit-tap-highlight-color: transparent;
 }
 
 nav {
@@ -142,6 +143,18 @@ nav {
     width: 212px;
     height: 44px;
     background: #0F8E2B;
+    border-radius: 125px;
+    margin-top: 34px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn_error {
+    width: 212px;
+    height: 44px;
+    background: #dc1818;
     border-radius: 125px;
     margin-top: 34px;
     margin-left: 10px;
