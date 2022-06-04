@@ -76,7 +76,7 @@ function upload_results(results) {
     document.cookie=`cuicuiml_data_${i}=${JSON.stringify()}`;
   }
   console.log(obj['name_1']);
-  //location.href = "result.php"
+  location.href = "result.php"
 }
 
 function erreur(){

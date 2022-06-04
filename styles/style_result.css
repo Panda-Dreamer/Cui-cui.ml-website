@@ -89,14 +89,16 @@ nav {
     z-index: 1;
     width: 80vw;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     flex-flow: row wrap;
 }
 
 .thumbnail {
+    /* width = 36 */
     margin-top: 44px;
     width: 36vw;
+    min-height: 250px;
     background: #F8FCF8;
     border: 1px solid #E0E2E2;
     border-radius: 45px;
@@ -123,6 +125,7 @@ nav {
     line-height: 20px;
     text-align: center;
     color: #130F49;
+    word-wrap: break-word;
 }
 
 .probability {
