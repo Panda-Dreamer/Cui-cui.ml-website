@@ -15,6 +15,16 @@ $_SESSION['decode_result']  = "";
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
       <script src= "/js/handler2.js" defer="defer"></script>
+      <link rel="shortcut icon" type="image/png" href="/resources/pwa/icons-cuicui-192.png"/>
+
+    <meta property="og:type" content="website">
+  <meta property="og:title" content="Cui-Cui.ml">
+  <meta property="og:description" content="Cui-Cui.ml l'application qui permet d'identifier des oiseaux à partir de leurs chants">
+  <meta property="og:url" content="https://cui-cui.ml">
+  <meta name="theme-color" content="#8ad3eb">
+  <meta property="og:image" content="https://cui-cui.ml/resources/pwa/icons-cuicui-192.png">
+  <meta name="keywords" content="birds">
+  <meta name="description" content="Cui-Cui.ml l'application qui permet d'identifier des oiseaux à partir de leurs chants">
 	</head>
 	<body onload="document.getElementById('fileSelect').focus();">
 		<nav>
