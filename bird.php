@@ -6,7 +6,7 @@
 <html> 
     <head>
         <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
         <title>Result - Cui-cui</title>
         <link rel="stylesheet" media="screen and (min-device-width: 11px)" href="styles/style_bird.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">

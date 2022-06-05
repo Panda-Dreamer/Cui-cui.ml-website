@@ -1,6 +1,6 @@
 window.onload = function()
 {   
-  var div = document.querySelector(.thumbnail).style;// récupère div
+  var div = document.querySelector("thumbnail").style;// récupère div
   var i = 0;// initialise i
   var f = function()// attribut à f une fonction anonyme
   {

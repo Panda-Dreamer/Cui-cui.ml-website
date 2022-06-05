@@ -8,7 +8,7 @@ $_SESSION['decode_result']  = "";
     <head>
         <meta charset="utf-8">
 <meta name="google-site-verification" content="X_GNh9HTupy8SmNy3bNH8AlUgksI0z_TkGJB1K-Q4ec" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" >
         <title>Home - Cui-cui</title>
       <link rel="manifest" href="/manifest.json">
         <link rel="stylesheet" media="screen and (min-device-width: 11px)" href="styles/style_home.css">
