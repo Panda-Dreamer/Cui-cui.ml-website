@@ -90,3 +90,13 @@ function erreur(){
   alert("L'enregistrement sonore n'est pas encore disponible")
 }
 
+function analyse_suite() {
+  document.querySelector(".txt_upload").innerText ="Analyse en cours...";
+  document.querySelector(".btn_upload").className = "btn_already_uploaded";
+  document.querySelector(".img_btn_upload").style.display="none";
+  document.querySelector(".img_analyse").style.display="block";
+}
+
+function erreur(){
+  alert("L'enregistrement sonore n'est pas encore disponible")
+}

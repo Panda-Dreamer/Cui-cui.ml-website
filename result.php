@@ -68,5 +68,6 @@ $_SESSION['decode_result'] = json_decode(html_entity_decode($result),true);
              
         </div>
         <div class="margin_nav_bar"></div>
+        <label><?= var_dump($_SESSION['decode_result']); ?></label>
     </body>
 </html>
