@@ -7,6 +7,7 @@ $_SESSION['decode_result']  = "";
 <html> 
     <head>
         <meta charset="utf-8">
+<meta name="google-site-verification" content="X_GNh9HTupy8SmNy3bNH8AlUgksI0z_TkGJB1K-Q4ec" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Home - Cui-cui</title>
       <link rel="manifest" href="/manifest.json">
@@ -15,14 +16,27 @@ $_SESSION['decode_result']  = "";
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
       <script src= "/js/handler2.js" defer="defer"></script>
+      <link rel="shortcut icon" type="image/png" href="/resources/pwa/icons-cuicui-192.png"/>
+
+    <meta property="og:type" content="website">
+  <meta property="og:title" content="Cui-Cui.ml">
+  <meta property="og:description" content="Cui-Cui.ml l'application qui permet d'identifier des oiseaux à partir de leurs chants">
+  <meta property="og:url" content="https://cui-cui.ml">
+  <meta name="theme-color" content="#8ad3eb">
+  <meta property="og:image" content="https://cui-cui.ml/resources/pwa/icons-cuicui-192.png">
+  <meta name="keywords" content="birds">
+  <meta name="description" content="Cui-Cui.ml l'application qui permet d'identifier des oiseaux à partir de leurs chants">
 	</head>
-	<body onload="document.getElementById('fileSelect').focus();">
+	<body onload="document.getElementById('fileSelect').focus();document.getElementById('fileSelectMic').focus();">
 		<nav>
             <div class="group_nav">
                 <img src="resources/nav_icon/home_select.svg" alt="home">
+              <input type="file" name="audio" id="fileSelectMic" accept="audio/*" style="display: none;">
+              <label for="fileSelectMic" onclick="">
                 <div class="btn_micro">
                     <img src="resources/nav_icon/microphone.svg" alt="microphone">
                 </div>
+              </label>
                 <img src="resources/nav_icon/search.svg" alt="search">
             </div>
         </nav>
@@ -45,7 +59,7 @@ $_SESSION['decode_result']  = "";
             </div>
             <p class="aide">Uploader votre fichier son directement</p>
             <input type="file" name="audio" id="fileSelect" accept="audio/*" style="display: none;">
-            <label for="fileSelect" onclick="analyse()">
+            <label for="fileSelect" onclick="">
               <div class="btn_upload">
                   <img class ="img_btn_upload" src="resources/upload.svg" alt="upload">
                   <img class ="img_analyse" src="resources/analyse.svg" alt="analyse">

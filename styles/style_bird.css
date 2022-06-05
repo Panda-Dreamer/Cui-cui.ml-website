@@ -12,6 +12,7 @@ body {
     background-repeat: none;
     background-position: center;
     background-size: 100%;
+    -webkit-tap-highlight-color: transparent;
 }
 
 a {

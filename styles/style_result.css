@@ -12,6 +12,7 @@ body {
     background-repeat: none;
     background-position: center;
     background-size: 100%;
+    -webkit-tap-highlight-color: transparent;
 }
 
 a {
@@ -103,6 +104,20 @@ nav {
     border: 1px solid #E0E2E2;
     border-radius: 45px;
     filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.25));
+}
+
+.thumbnail { 
+animation: fadeInAnimation ease 1.4s; 
+animation-fill-mode: forwards; 
+animation-iteration-count: 1; 
+} 
+@keyframes fadeInAnimation { 
+0% { 
+opacity: 0; 
+} 
+100% { 
+opacity: 1; 
+} 
 }
 
 .img_thumbnail {
