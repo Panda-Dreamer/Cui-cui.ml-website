@@ -8,7 +8,20 @@ $_SESSION['decode_result']  = "";
     <head>
         <meta charset="utf-8">
 <meta name="google-site-verification" content="X_GNh9HTupy8SmNy3bNH8AlUgksI0z_TkGJB1K-Q4ec" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" >
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, minimum-scale = 1, maximum-scale = 1, user-scalable = no" >
+    <!-- App pour apple -->
+
+    <meta name="apple-mobile-web-app-title" content="Cui-cui.ml" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="#F8FCF8" />
+
+    <link rel="apple-touch-icon" href="/resources/pwa/icons-cuicui-192.png">
+
+    <link rel="apple-touch-icon" sizes="512x512" href="/resources/pwa/icons-cuicui-512.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/resources/pwa/icons-cuicui-192.png">
+    <!-- App pour apple -->
         <title>Home - Cui-cui</title>
       <link rel="manifest" href="/manifest.json">
         <link rel="stylesheet" media="screen and (min-device-width: 11px)" href="styles/style_home.css">
