@@ -39,11 +39,11 @@ function press(e,id){
 }
 
 function analyse() {
-  setTimeout(analyse_suite, 2000);
+  setTimeout(analyse_suite, 200);
 }
 
 function error_timeout(){
-  setTimeout(upload_error, 2000);
+  setTimeout(upload_error, 200);
 }
 
 function reload() {
